@@ -1,0 +1,51 @@
+body{
+ color: #A2004F;
+}
+table, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td {
+    width: 300px;
+    height: 100px;
+}
+.twoborder{
+    border: none;
+    background-color: aqua;
+    margin: 0px;
+    padding: 0px;
+}
+
+.firstrow {
+    background-color: #148f8f ;
+}
+
+.firstrow:hover {
+    background-color:  #f5f514 ;
+}
+
+.secondrow{
+    background-color: #f5f514 ;
+}
+
+.secondrow:hover{
+    background-color:  #148f8f  ;
+}
+
+
+.position-image {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 150px;
+    height: auto;
+}
+
+.transform-image {
+    position: relative;
+    width: 150px;
+    height: auto;
+    top: 200px;
+    left: 200px;
+    transform: rotate(45deg) scale(2); 
+}
